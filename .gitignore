@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Compiled output
+# This assumes your TypeScript output directory is 'dist' or 'build'
+# Adjust based on your tsconfig.json's outDir
+dist/
+build/
+*.js
+*.js.map
+*.d.ts # Optionally ignore declaration files if they are generated during build and not meant to be versioned directly
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor/OS specific files
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.local
+.env.*.local
+
+# Test coverage reports
+coverage/
+
+# Misc
+.cache/
+tmp/
